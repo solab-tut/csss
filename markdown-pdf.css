@@ -70,6 +70,10 @@ ol {
   padding: 0 0 0 2.0em;
 }
 
+ul ul {
+  padding: 0 0 0 2.0em;
+}
+
 li p:last-child {
   margin: 0;
 }
