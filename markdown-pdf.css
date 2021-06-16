@@ -1,5 +1,9 @@
 @import url("https://raw.githubusercontent.com/simonlc/Markdown-CSS/master/markdown.css");
 
+body {
+    font-size: 10px;
+}
+
 img {
     width: 80%;
     margin-left: 10%;
