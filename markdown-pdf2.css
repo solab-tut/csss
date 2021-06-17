@@ -66,9 +66,8 @@ h3 {
     font-size: 1.2em;
 }
 
-/* for inline code */
+/* for inline code 黄色の網掛けにした */
 :not(pre):not(.hljs) > code {
-    /* color: #C9AE75; */ /* Change the old color so it seems less like an error */
     font-size: inherit;
     color: #000000;
     background-color: #ffff66;
@@ -95,5 +94,9 @@ li {
 }
 
 li p:last-child {
+  margin: 0;
+}
+
+li p {
   margin: 0;
 }
