@@ -17,6 +17,10 @@ img {
     margin-left: 10%;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
 h1 {
     padding-bottom: 0.3em;
     line-height: 1.1;
