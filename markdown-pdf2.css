@@ -1,0 +1,91 @@
+/*
+@import url("https://raw.githubusercontent.com/simonlc/Markdown-CSS/master/markdown.css");
+*/
+
+body {
+    font-size: 12px;
+    /* font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'ＭＳ　Ｐゴシック', 'MS PGothic', sans-serif; */
+    line-height: 1.5em;
+}
+
+img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+h1 {
+    padding-bottom: 0.3em;
+    line-height: 1.1;
+    border-bottom: 2px solid #2f51b4;
+    position: relative;
+    padding-left: 18px;
+    font-size: 2.0em;
+}
+
+h1:before {
+    background: #2f51b4;
+    content: "";
+    height: 28px;
+    width: 8px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+    margin-bottom: 0.0em;
+    line-height: 1.1;
+    /* border-bottom: 1px solid #2f51b4; */
+    position: relative;
+    padding-left: 18px;
+    /*margin-left: 16px;*/
+    font-size: 1.5em;
+}
+
+h2:before {
+    background: #2f51b4;
+    content: "";
+    height: 20px;
+    width: 5px;
+    left: 0px;
+    position: absolute;
+    top: 3px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+    /* color: #C9AE75; */ /* Change the old color so it seems less like an error */
+    font-size: inherit;
+    color: #000000;
+    background-color: #ffff66;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+ul,
+ol {
+  margin: 0 0;
+  padding: 0 0 0 2.0em;
+}
+
+ul ul {
+  padding: 0 0 0 2.0em;
+}
+
+li {
+  /* padding: 0.2em 0; */
+}
+
+li p:last-child {
+  margin: 0;
+}
