@@ -658,7 +658,7 @@ body hr {
 
 body blockquote {
   padding: 0 1em;
-  /* color: #6a737d; */
+  color: #24292e;  /* 暗くした 普通のテキストと同じ */
   border-left: .25em solid #dfe2e5;
 }
 
