@@ -1083,6 +1083,7 @@ body blockquote {
 li {
   position: relative;
   padding-left: 10px;
+  list-style-type: none;
 }
 
 ul li:before {
