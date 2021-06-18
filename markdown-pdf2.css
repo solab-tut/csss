@@ -1016,11 +1016,11 @@ body h1 {
 body h1:before {
   background: #2f51b4;
   content: "";
-  height: 28px;
+  height: 1.1em;
   width: 8px;
   left: 0;
   position: absolute;
-  top: 3px;
+  top: 0px;
 }
 
 body h2 {
@@ -1039,11 +1039,11 @@ body h2 {
 body h2:before {
   background: #2f51b4;
   content: "";
-  height: 20px;
+  height: 1em;
   width: 5px;
   left: 0px;
   position: absolute;
-  top: 3px;
+  top: 0px;
 }
 
 body h3 {
