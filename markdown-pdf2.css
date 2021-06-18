@@ -1028,7 +1028,7 @@ h2 {
   margin-bottom: 0.0em;
   line-height: 1.1;
   /* border-bottom: 1px solid #2f51b4; */
-  border: 0
+  border: 0;
   position: relative;
   padding-left: 18px;
   /*margin-left: 16px;*/
@@ -1059,14 +1059,14 @@ h3 {
 
 code {
   font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-  font-size: 1;
+  font-size: 1em;
   line-height: 1.2;
   margin-left: 1em;
 }
 
 
 blockquote {
-  font-size: 0.8
+  font-size: 0.8em
   color: #24292e;
   margin-left: 1em;
 }
