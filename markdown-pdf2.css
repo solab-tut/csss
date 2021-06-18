@@ -1028,6 +1028,7 @@ body h2 {
   margin-bottom: 0.0em;
   line-height: 1.1;
   /* border-bottom: 1px solid #2f51b4; */
+  border-bottom: 0;
   border: 0;
   position: relative;
   padding-left: 18px;
