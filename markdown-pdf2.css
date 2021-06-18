@@ -1092,19 +1092,19 @@ body ul {
 }
 
 body ul {
-  list-style-type: disclosure-closed;
+  list-style-type: square;
 }
 
 body ul ul,
 body ol ul {
-  list-style-type: square;
+  list-style-type: disc;
 }
 
 body ol ol ul,
 body ol ul ul,
 body ul ol ul,
 body ul ul ul {
-  list-style-type: disc;
+  list-style-type: circle;
 }
 
 body ol {
