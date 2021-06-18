@@ -1074,7 +1074,7 @@ body code {
 
 
 body blockquote {
-  font-size: 0.8em
+  font-size: 0.8em;
   color: #24292e;
   margin-left: 1em;
   padding: 0.1em 1em;
