@@ -988,24 +988,86 @@ body .task-list-item input {
 
 /*
 ゴシック系
-  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
-  font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 
 明朝系
-  font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 */
 
 body {
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-size: 12px;
+  line-height: 1.2;
 }
 
-body blockquote {
+blockquote {
   color: #24292e;
   margin-left: 1em;
 }
 
-body h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
+
+h1 {
+    padding-bottom: 0.3em;
+    line-height: 1.1;
+    border-bottom: 2px solid #2f51b4;
+    position: relative;
+    padding-left: 18px;
+    font-size: 2.0em;
+}
+
+h1:before {
+    background: #2f51b4;
+    content: "";
+    height: 28px;
+    width: 8px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+}
+
+h2 {
+    padding-bottom: 0.3em;
+    margin-bottom: 0.0em;
+    line-height: 1.1;
+    /* border-bottom: 1px solid #2f51b4; */
+    position: relative;
+    padding-left: 18px;
+    /*margin-left: 16px;*/
+    font-size: 1.5em;
+}
+
+h2:before {
+    background: #2f51b4;
+    content: "";
+    height: 20px;
+    width: 5px;
+    left: 0px;
+    position: absolute;
+    top: 3px;
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+    /* color: #C9AE75; */ /* Change the old color so it seems less like an error */
+    font-size: inherit;
+    color: #000000;
+    background-color: #ffff66;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.2em;
+}
+
+A
+A
+
