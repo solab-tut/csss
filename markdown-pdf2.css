@@ -1080,13 +1080,12 @@ body blockquote {
   padding: 0.1em 1em;
 }
 
-li {
+body li {
   position: relative;
   padding-left: 10px;
-  list-style-type: none;
 }
 
-ul li:before {
+body ul li:before {
   content: "";
   position: absolute;
   top: .35em;
@@ -1098,13 +1097,35 @@ ul li:before {
   border-color: transparent transparent transparent #8b6b4e;
 }
 
-ul ul li:before {
+body ul ul li:before {
   border-radius: 100%;
   background: #20B97B;
 }
 
-ol li:before {
+body ol li:before {
   color: #F44336;
 }
 
+body ul {
+  list-style-type: none;
+}
+
+body ol,
+body ul {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body ol ol,
+body ul ol {
+  list-style-type: lower-roman;
+}
+
+body ol ol ol,
+body ol ul ol,
+body ul ol ol,
+body ul ul ol {
+  list-style-type: lower-alpha;
+}
 
