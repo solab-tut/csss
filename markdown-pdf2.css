@@ -1007,7 +1007,7 @@ body h1, h2, h3, h4, h5, h6 {
 body br {
   display: block;
   content: "";
-  height: 5px;
+  height: 2px;
 }
 
 body h1 {
@@ -1078,5 +1078,32 @@ body blockquote {
   color: #24292e;
   margin-left: 1em;
   padding: 0.1em 1em;
+}
+
+ul li{
+	padding:0px;
+	margin:0px;
+}
+ul li{
+	list-style-type:none !important;
+	list-style-image:none !important;
+	margin: 5px 0px 5px 0px !important;
+}
+ul li{
+	position:relative;
+	padding-left:20px;
+}
+ul li:after{
+	content:'';
+	display:block; 
+	position:absolute; 
+	background:#ea5219;
+	width:9px;
+	height:9px; 
+	top:5px; 
+	left:5px; 
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
 }
 
