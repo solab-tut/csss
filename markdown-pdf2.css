@@ -1081,9 +1081,19 @@ body blockquote {
 }
 
 ul li:before {
-  font-family: "Font Awesome 5 Free";
-  content: "\f0da";
+  content: "";
   position: absolute;
-  left : 1em; /*左端からのアイコンまで*/
-  color: gray; /*アイコン色*/
+  top: .35em;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #8b6b4e;
 }
+
+ol li:before {
+  color: #F44336;
+}
+
+
