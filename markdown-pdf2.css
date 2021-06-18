@@ -1000,11 +1000,11 @@ body {
   line-height: 1.2;
 }
 
-h1, h2, h3, h4, h5, h6 {
+body h1, h2, h3, h4, h5, h6 {
   font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
-h1 {
+body h1 {
   padding-bottom: 0.3em;
   line-height: 1.1;
   border-bottom: 2px solid #2f51b4;
@@ -1013,7 +1013,7 @@ h1 {
   font-size: 2.0em;
 }
 
-h1:before {
+body h1:before {
   background: #2f51b4;
   content: "";
   height: 28px;
@@ -1023,7 +1023,7 @@ h1:before {
   top: 3px;
 }
 
-h2 {
+body h2 {
   padding-bottom: 0.3em;
   margin-bottom: 0.0em;
   line-height: 1.1;
@@ -1035,7 +1035,7 @@ h2 {
   font-size: 1.5em;
 }
 
-h2:before {
+body h2:before {
   background: #2f51b4;
   content: "";
   height: 20px;
@@ -1045,31 +1045,31 @@ h2:before {
   top: 3px;
 }
 
-h3 {
+body h3 {
   text-decoration: underline;
   font-size: 1.2em;
 }
 
 /* for inline code */
-:not(pre):not(.hljs) > code {
+body :not(pre):not(.hljs) > code {
   font-size: inherit;
   color: #000000;
   background-color: #ffff66;
 }
 
-code {
+body code {
   font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
   font-size: 1em;
   line-height: 1.2;
   margin-left: 1em;
-  padding: 0.5em;
+  padding: 0.1em 1em;
 }
 
 
-blockquote {
+body blockquote {
   font-size: 0.8em
   color: #24292e;
   margin-left: 1em;
-  padding: 0.5em;
+  padding: 0.1em 1em;
 }
 
