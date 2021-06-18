@@ -1062,6 +1062,7 @@ code {
   font-size: 1em;
   line-height: 1.2;
   margin-left: 1em;
+  padding: 0.5em;
 }
 
 
@@ -1069,5 +1070,6 @@ blockquote {
   font-size: 0.8em
   color: #24292e;
   margin-left: 1em;
+  padding: 0.5em;
 }
 
