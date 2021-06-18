@@ -992,3 +992,9 @@ body .task-list-item input {
   vertical-align: middle;
 }
 
+/* --- 独自変更部分 --- */
+
+body blockquote {
+  color: #24292e;
+  margin-left: 2ex;
+}
