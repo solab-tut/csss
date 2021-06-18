@@ -1080,30 +1080,10 @@ body blockquote {
   padding: 0.1em 1em;
 }
 
-ul li{
-	padding:0px;
-	margin:0px;
+ul li:before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f0da";
+  position: absolute;
+  left : 1em; /*左端からのアイコンまで*/
+  color: gray; /*アイコン色*/
 }
-ul li{
-	list-style-type:none !important;
-	list-style-image:none !important;
-	margin: 5px 0px 5px 0px !important;
-}
-ul li{
-	position:relative;
-	padding-left:20px;
-}
-ul li:after{
-	content:'';
-	display:block; 
-	position:absolute; 
-	background:#ea5219;
-	width:9px;
-	height:9px; 
-	top:5px; 
-	left:5px; 
-	transform:rotate(-45deg);
-	-webkit-transform:rotate(-45deg);
-	-o-transform:rotate(-45deg);
-}
-
