@@ -1095,8 +1095,6 @@ body ul {
   list-style-type: disc;
 }
 
-}
-
 body ul ul,
 body ol ul {
   list-style-type: '-';
