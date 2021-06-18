@@ -1080,6 +1080,11 @@ body blockquote {
   padding: 0.1em 1em;
 }
 
+li {
+  position: relative;
+  padding-left: 10px;
+}
+
 ul li:before {
   content: "";
   position: absolute;
