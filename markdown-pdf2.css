@@ -1086,13 +1086,15 @@ body ol li:before {
 
 body ol,
 body ul {
-  padding-left: 0;
+  padding-left: 2em;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 body ul {
   list-style-type: disc;
+}
+
 }
 
 body ul ul,
