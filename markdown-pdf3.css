@@ -29,9 +29,9 @@ body br {
 
 body h1 {
   padding-bottom: 0.3em;
+  margin: 2em 0em;
   line-height: 1.1;
   border-bottom: 2px solid #2f51b4;
-  margin-bottom: 0.5em;
   position: relative;
   padding-left: 18px;
   font-size: 1.5em;
@@ -71,12 +71,21 @@ body h2:before {
 }
 
 body h3 {
+  padding-bottom: 0.0em;
+  margin-bottom: 0.3em;
+  line-height: 1.1;
+  border-bottom: 0;
+  border: 0;
+  position: relative;
+  padding-left: 0px;
   text-decoration: underline;
   font-size: 1.1em;
+  font-weight: bold;
 }
 
 body h4 {
-  font-size: 1.1em;
+  font-size: 1.0em;
+  font-weight: bold;
 }
 
 /* for inline code */
