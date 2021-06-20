@@ -28,8 +28,7 @@
 
 ## PDF化
 - 拡張 `Markdown PDF`を入れる
-- ヘッダに作成日時を表示させない  
-  設定で
+- ヘッダに作成日時を表示させない。設定でヘッダの定義を編集する。
   - 数式が表現できない → template.htmlの変更により、**変換時のMathjaxの有効化**を用いる [参考サイト](https://qiita.com/ossyaritoori/items/5e7b3d40505de6288e3c)
     1. `Cmd+Shift+P`でコマンドパレットを呼び出し `Extensions: Open Extensions Folder` でEnterする。
     2. `yzane.markdown-pdf-x.x.x\template` のフォルダに移動する。
