@@ -12,6 +12,7 @@ body {
   font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
   font-size: 12px;
   line-height: 1.5;
+  color: black;
 }
 
 body h1, h2, h3, h4, h5, h6 {
@@ -22,6 +23,7 @@ body br {
   display: block;
   content: "";
   height: 2px;
+  color: black;
 }
 
 body h1 {
@@ -74,8 +76,17 @@ body h3 {
 /* for inline code */
 body :not(pre):not(.hljs) > code {
   font-size: inherit;
-  color: #000000;
+  color: black;
   background-color: #ffff66;
+}
+
+body pre.hljs {
+  margin: 0em;
+  padding: 0.5em;
+}
+
+body pre.hljs code > div {
+  padding: 5px;
 }
 
 body code {
