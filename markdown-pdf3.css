@@ -89,7 +89,7 @@ body h4 {
 
 /* for inline code */
 body :not(pre):not(.hljs) > code {
-  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; 
+  font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
   font-size: inherit;
   color: black;
   background-color: #ffff66;
