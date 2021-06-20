@@ -78,15 +78,18 @@ body :not(pre):not(.hljs) > code {
   font-size: inherit;
   color: black;
   background-color: #ffff66;
+  margin: 0em;
+  padding: 0.3em 0.3em;
 }
 
 body pre.hljs {
   margin: 1em;
-  padding: 0.5em;
+  padding: 0.3em;
 }
 
 body pre.hljs code > div {
-  padding: 5px;
+  padding: 0.3em;
+  margin: 0;
 }
 
 body code {
@@ -94,7 +97,7 @@ body code {
   font-size: 0.8em;
   line-height: 1.2;
   margin-left: 1em;
-  padding: 0.1em 1em;
+  padding: 0.3em 0.3em;
 }
 
 
