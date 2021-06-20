@@ -9,15 +9,14 @@
 */
 
 body {
-  /* font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; */
-  font-family: "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; 
   font-size: 12px;
   line-height: 1.5;
   color: black;
 }
 
 body h1, h2, h3, h4, h5, h6 {
-  /* font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; */
+  font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
@@ -75,12 +74,13 @@ body h3 {
   font-size: 1.1em;
 }
 
-body h3 {
+body h4 {
   font-size: 1.1em;
 }
 
 /* for inline code */
 body :not(pre):not(.hljs) > code {
+  font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif; 
   font-size: inherit;
   color: black;
   background-color: #ffff66;
