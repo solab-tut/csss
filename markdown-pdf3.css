@@ -82,7 +82,7 @@ body h3 {
 /* for inline code */
 body :not(pre):not(.hljs) > code {
   font-size: inherit;
-  color: red;
+  color: black;
   background-color: #ffff66;
   margin: 0em;
   padding: 0.3em 0.3em;
@@ -100,7 +100,7 @@ body pre.hljs code > div {
 
 body code {
   font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.2;
   margin-left: 1em;
   padding: 0.3em 0.3em;
@@ -116,7 +116,8 @@ body pre {
 
 
 body blockquote {
-  font-size: 0.8em;
+  font-size: 0.9em;
+  line-height: 1.2;
   color: black;
   margin-left: 1em;
   padding: 0.1em 1em;
