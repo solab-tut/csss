@@ -81,7 +81,7 @@ body :not(pre):not(.hljs) > code {
 }
 
 body pre.hljs {
-  margin: 0em;
+  margin: 1em;
   padding: 0.5em;
 }
 
@@ -91,7 +91,7 @@ body pre.hljs code > div {
 
 body code {
   font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
-  font-size: 1em;
+  font-size: 0.8em;
   line-height: 1.2;
   margin-left: 1em;
   padding: 0.1em 1em;
@@ -103,6 +103,7 @@ body blockquote {
   color: #24292e;
   margin-left: 1em;
   padding: 0.1em 1em;
+  border-color: #ffb7b7;
 }
 
 body ol li:before {
