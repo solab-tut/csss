@@ -29,7 +29,7 @@ body br {
 
 body h1 {
   padding-bottom: 0.3em;
-  margin: 2em 0em;
+  margin: 1.5em 0em;
   line-height: 1.1;
   border-bottom: 2px solid #2f51b4;
   position: relative;
@@ -73,7 +73,6 @@ body h2:before {
 body h3 {
   padding-bottom: 0.0em;
   margin-bottom: 0.3em;
-  line-height: 1.1;
   border-bottom: 0;
   border: 0;
   position: relative;
