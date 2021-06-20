@@ -134,8 +134,8 @@ body blockquote {
   font-size: 0.9em;
   line-height: 1.5;
   color: black;
-  margin: 0em;
-  padding: 0.2em 1.0em;
+  margin: 0.2em 0em;
+  padding: 0.3em 1.0em;
   border-color: #ffb7b7;
   background-color: #fffafa;
 }
