@@ -94,7 +94,7 @@ body :not(pre):not(.hljs) > code {
   color: black;
   background-color: #ffff66;
   margin: 0em;
-  padding: 0.1em 0.1em;
+  padding: 0.2em 0.2em;
 }
 
 body pre.hljs {
@@ -112,12 +112,12 @@ body code {
   font-family: monospace;
   font-size: 0.9em;
   line-height: 1.5;
-  margin-left: 1em;
+  /* margin-left: 1em; */
   padding: 0.3em 0.3em;
 }
 
 body pre {
-  backgroud-color: #fbfbf0;
+  background-color: #fbfbf0;
   border: 1px solid #cccccc;
   border-radius: 3px;
   white-space: pre-wrap;
@@ -127,7 +127,7 @@ body pre {
 
 body blockquote {
   font-size: 0.9em;
-  line-height: 1.2;
+  line-height: 1.5;
   color: black;
   margin-left: 1em;
   padding: 0.1em 1em;
