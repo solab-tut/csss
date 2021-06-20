@@ -89,7 +89,7 @@ body h4 {
 
 /* for inline code */
 body :not(pre):not(.hljs) > code {
-  font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+  font-family: monospace;
   font-size: inherit;
   color: black;
   background-color: #ffff66;
@@ -108,7 +108,8 @@ body pre.hljs code > div {
 }
 
 body code {
-  font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+  /* font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback"; */
+  font-family: monospace;
   font-size: 0.9em;
   line-height: 1.5;
   margin-left: 1em;
