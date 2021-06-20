@@ -100,6 +100,7 @@ body :not(pre):not(.hljs) > code {
 body pre.hljs {
   margin: 1em;
   padding: 0.3em;
+  color: black;
 }
 
 body pre.hljs code > div {
@@ -108,12 +109,12 @@ body pre.hljs code > div {
 }
 
 body code {
-  /* font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback"; */
-  font-family: monospace;
+  font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
   font-size: 0.9em;
   line-height: 1.5;
   /* margin-left: 1em; */
-  padding: 0.3em 0.3em;
+  /* padding: 0.3em 0.3em; */
+  padding: 0em;
 }
 
 body pre {
