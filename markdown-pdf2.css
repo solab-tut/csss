@@ -176,7 +176,13 @@ body ul li:before {
   left : 1em;/*左端からのアイコンまでの距離*/
   color: skyblue;/*アイコン色*/
 }
-
+body ul li:before {
+  font-family: "Material Icons";
+  content: "\e876";/*アイコンの種類*/
+  position: absolute;
+  left : 1em;/*左端からのアイコンまでの距離*/
+  color: skyblue;/*アイコン色*/
+}
 /*
 body ol li:before {
   color: #F44336;
