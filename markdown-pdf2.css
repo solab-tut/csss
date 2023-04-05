@@ -165,7 +165,7 @@ body ul li {
 }
 
 body ul li:before {
-  font: var(--fa-font-brands);
+  font: var(--fa-font-solid);
   /* font-family: "Font Awesome 5 Free"; */
   content: "\f138";/*アイコンの種類*/
   position: absolute;
