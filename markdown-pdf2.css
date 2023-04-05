@@ -1,0 +1,291 @@
+/* --- 独自変更部分 --- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+body {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: black;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+
+body br {
+  display: block;
+  content: "";
+  height: 2px;
+  color: black;
+}
+
+
+body h1 {
+  padding-bottom: 0.1em;
+  margin: 0em 0em;
+  line-height: 1.1;
+  border-bottom: 2px solid #2f51b4;
+  position: relative;
+  padding-left: 18px;
+  font-size: 1.5em;
+}
+/*
+body h1:before {
+  background: #2f51b4;
+  content: "";
+  height: 1.1em;
+  width: 8px;
+  left: 0;
+  position: absolute;
+  top: 0px;
+}
+*/
+
+/*
+h1:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, #2f51b4, transparent);
+  background: linear-gradient(to right, #2f51b4, transparent);
+}
+*/
+
+/*
+body h1 {
+  display: inline-block;
+  position: relative;
+  padding: .2em 0.5em;
+  margin: 2px 0px 10px 0px;
+  border-right: 27px solid #2589d0;
+  background-color: #f5f5f5;
+  color: #333333;
+  font-size: 16px;
+}
+
+body h1:before {
+  position: absolute;
+  bottom: 2px;
+  right: -20px;
+  z-index: -1;
+  transform: rotate(5deg);
+  width: 100%;
+  height: 50%;
+  background-color: #d0d0d0;
+  content: "";
+  filter: blur(4px);
+}
+*/
+
+/*
+body h2 {
+  padding-bottom: 0.0em;
+  margin-bottom: 0.3em;
+  line-height: 1.1;
+  border-bottom: 0;
+  border: 0;
+  position: relative;
+  padding-left: 18px;
+  font-size: 1.2em;
+}
+
+body h2:before {
+  background: #2f51b4;
+  content: "";
+  height: 1em;
+  width: 5px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+*/
+
+body h2 {
+  position: relative;
+  padding: 2px 25px;
+  margin: 10px 0px 2px 0px;
+  color: #333333;
+  font-size: 16px;
+}
+
+body h2:before,
+body h2:after {
+  display: inline-block;
+  position: absolute;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border: 2px solid #2589d0;
+  content: '';
+}
+
+body h2:before {
+  top: calc(50% - 2px);
+  left: 0;
+}
+
+body h2:after {
+  top: calc(50% + 2px);
+  left: 4px;
+}
+
+/*
+body h2 {
+  position: relative;
+	padding-left: 1.5em;
+}
+
+body h2:before {
+  position: absolute;
+	font-family: "Material Icons";
+	content: "\f138";
+	left: 0;
+	top: 0;
+	font-weight: 900;
+	font-size: 1em;
+	color: #27acd9;
+}
+*/
+
+body h3 {
+  padding-bottom: 0.0em;
+  margin-bottom: 0.3em;
+  border-bottom: 0;
+  border: 0;
+  position: relative;
+  padding-left: 0px;
+  text-decoration: underline;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+body h4 {
+  font-size: 1.0em;
+  font-weight: bold;
+}
+
+/* for inline code */
+body :not(pre):not(.hljs) > code {
+  /* 
+  font-family: monospace;
+  font-size: inherit;
+  */
+  font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+  font-size: 0.9em;
+  color: black;
+  background-color: #ffff66;
+  margin: 0em;
+  padding: 0.2em 0.2em;
+}
+
+body pre.hljs {
+  margin: 1em;
+  padding: 0.3em;
+  color: black;
+}
+
+body pre.hljs code > div {
+  padding: 0.3em;
+  margin: 0;
+}
+
+body code {
+  font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+  font-size: 0.9em;
+  line-height: 1.5;
+  /* margin-left: 1em; */
+  /* padding: 0.3em 0.3em; */
+  padding: 0em;
+}
+
+body pre {
+  background-color: #fbfbf0;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+
+body blockquote {
+  font-size: 0.9em;
+  line-height: 1.5;
+  color: black;
+  margin: 5px 0em;
+  margin-block: 5px;
+  padding: 5px 5px;
+  border-color: #ffb7b7;
+  background-color: #fffafa;
+}
+
+body blockquote p {
+  margin: 5px 5px;
+}
+
+body ul, ol {
+  /*
+  border: solid 2px skyblue;
+  border-radius: 5px;
+  */
+  padding: 0.0em 0.0em 0.0em 0.5em;
+  margin-block: 2px 2px;
+  position: relative;
+}
+
+body ul li {
+  line-height: 1.2;
+  padding: 0.2em 0.2em 0.0em 1.2em;
+  list-style-type: none;
+}
+
+body ol li {
+  line-height: 1.2;
+  padding: 0.2em 0.2em 0.0em 1.2em;
+  list-style-type: decimal;
+}
+
+body ul li:before {
+  font-family: "Material Icons";
+  content: "\e409";/*アイコンの種類*/
+  position: absolute;
+  left : 0.5em;/*左端からのアイコンまでの距離*/
+  color: red;/*アイコン色*/
+}
+
+body ul ul li:before {
+  font-family: "Material Icons";
+  content: "\e876";/*アイコンの種類*/
+  position: absolute;
+  left : 0.5em;/*左端からのアイコンまでの距離*/
+  color: red;/*アイコン色*/
+}
+
+body ul ul ul li:before {
+  font-family: "Material Icons";
+  content: "\e5df";/*アイコンの種類*/
+  position: absolute;
+  left : 0.5em;/*左端からのアイコンまでの距離*/
+  color: red;/*アイコン色*/
+}
+
+
+body ol {
+  list-style-type: decimal;
+}
+
+body ol ol,
+body ul ol {
+  list-style-type: lower-roman;
+}
+
+body ol ol ol,
+body ol ul ol,
+body ul ol ol,
+body ul ul ol {
+  list-style-type: lower-alpha;
+}
