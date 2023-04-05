@@ -140,6 +140,8 @@ body blockquote {
   background-color: #fffafa;
 }
 
+/*
+
 body ol li:before {
   color: #F44336;
 }
@@ -182,4 +184,4 @@ body ul ol ol,
 body ul ul ol {
   list-style-type: lower-alpha;
 }
-
+*/
